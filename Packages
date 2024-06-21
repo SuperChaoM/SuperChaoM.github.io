@@ -73,15 +73,30 @@ Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Name: Apple File Conduit "2" (iOS 11+, arm64)
 
 Package: jimai.Automatic.clickiOS15
-Version: 240528.114340
+Version: 240621.145840
 Architecture: iphoneos-arm64
 Maintainer: Super
 Depends: openssh,mobilesubstrate,firmware (>= 6.0)
 Filename: ./debs/ijiamiAuto.deb
-Size: 4192344
-MD5sum: cb4ef0277d50b4c70679e1d1ba1deed4
-SHA1: f9734872c1e2cdfed84ba89a355c67690808457c
-SHA256: c545c64dc962993d3f3dcdcc2b30bc3326d09776c6d903bedc3e3905aeac28f9
+Size: 4192780
+MD5sum: 76d6118da14ab2f2423a8d17a49b24f4
+SHA1: 2ebf91b42cd03099bbfea6d851a49b34cdfa3245
+SHA256: e1e1f66963cbbacabf5b8fed1ca6db51c12c4ce72e576a31dd1769939d6eb1c9
+Section: Super
+Description: iOS手机环境插件集成版(iOS15版本)
+Author: Super
+Name: IJMAutoClickiOS15
+
+Package: jimai.Automatic.clickiOS15
+Version: 240621.150807
+Architecture: iphoneos-arm64
+Maintainer: Super
+Depends: openssh,mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/ijiamiAuto-240621.150807.deb
+Size: 4192784
+MD5sum: 450365f89967c11911580ef301b820ed
+SHA1: a06fcf15ccb3e9a8db67b51e22310ec56fbaa5c6
+SHA256: 7dfa09d09668169f2441fbed33b5cc29daea02b22d8e50124ea5f05337872148
 Section: Super
 Description: iOS手机环境插件集成版(iOS15版本)
 Author: Super
