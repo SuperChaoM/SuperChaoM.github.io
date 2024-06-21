@@ -1,0 +1,89 @@
+Package: IDBDeviceCheckTool.ijm.com
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: songxuhua
+Depends: firmware (>= 5.0)
+Filename: ./debs/IDBDeviceCheckTool.ijm.com_1.4_iphoneos-arm64_rootless.deb
+Size: 35238
+MD5sum: 3488addda1058567b73fce850cbf8d8c
+SHA1: 1ff44ecd1b955b736df60d72fd1d8d4ac17fcf6e
+SHA256: c80fdf2eef27af15d665775e6faa7be6c83dbe490bd85ff11a4de73b94180c5e
+Section: System
+Priority: optional
+Description: 生产日期20240528(适配dopamine越狱)
+Author: ijm
+Name: IDBDeviceCheckTool
+
+Package: NewClientOSWebSocket.com.songxuhua
+Version: 2.9.6
+Architecture: iphoneos-arm64
+Maintainer: MyNameisSongxuhua
+Depends: firmware (>= 5.0),lsof
+Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.6_iphoneos-arm64_rootless.deb
+Size: 233824
+MD5sum: 26b7c18129c474688677363304069428
+SHA1: 2ee9f9c2f1f4616ffad3b276650e32cb49b30931
+SHA256: f6bce3c1e760f88e018336b09b6b5d3344d9dbea054f156db5fec4dbfbea637c
+Section: System
+Priority: optional
+Description: 扫码行为日志加入stage
+Author: songxuhua
+Icon: 1
+Name: ijmClientOSWebSocket
+
+Package: ai.akemi.appsyncunified
+Version: 112.1
+Architecture: iphoneos-arm64
+Installed-Size: 220
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.7.7),ldid
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: ./debs/ai.akemi.appsyncunified_112.1_iphoneos-arm64.deb
+Size: 23978
+MD5sum: fb043aea751b0c13c1444161844619f7
+SHA1: e29e3369c179a3d0791bd0534b6c6816f2e6310b
+SHA256: b233c356a621349b1d54c782ab932d40e40165204fe00a6cdcacd43082d5392c
+Section: Tweaks
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: 111
+Name: AppSync Unified
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: Cannathea <csupport@cannathea.com>
+Installed-Size: 172
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.cannathea.afc2d-arm64_1.2.0_iphoneos-arm64 (1).deb
+Size: 15180
+MD5sum: 0973f7e310c8f8233ec309e9d274e388
+SHA1: 2ec0429adc9247cfc69c47c4aaa8f74459ec294a
+SHA256: c86df80312de9c06ebd21cf5dd72db3ca4b388edcfbc06d6a05e32b166b84a07
+Section: System
+Homepage: https://cannathea.com/
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Tag: purpose::daemon, role::enduser
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+
+Package: jimai.Automatic.clickiOS15
+Version: 240528.114340
+Architecture: iphoneos-arm64
+Maintainer: Super
+Depends: openssh,mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/ijiamiAuto.deb
+Size: 4192344
+MD5sum: cb4ef0277d50b4c70679e1d1ba1deed4
+SHA1: f9734872c1e2cdfed84ba89a355c67690808457c
+SHA256: c545c64dc962993d3f3dcdcc2b30bc3326d09776c6d903bedc3e3905aeac28f9
+Section: Super
+Description: iOS手机环境插件集成版(iOS15版本)
+Author: Super
+Name: IJMAutoClickiOS15
+
