@@ -59,7 +59,7 @@ Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.2.0_iphoneos-arm64 (1).deb
+Filename: ./debs/com.cannathea.afc2d-arm64_1.2.0_iphoneos-arm64.deb
 Size: 15180
 MD5sum: 0973f7e310c8f8233ec309e9d274e388
 SHA1: 2ec0429adc9247cfc69c47c4aaa8f74459ec294a
@@ -97,6 +97,21 @@ Size: 4192784
 MD5sum: 450365f89967c11911580ef301b820ed
 SHA1: a06fcf15ccb3e9a8db67b51e22310ec56fbaa5c6
 SHA256: 7dfa09d09668169f2441fbed33b5cc29daea02b22d8e50124ea5f05337872148
+Section: Super
+Description: iOS手机环境插件集成版(iOS15版本)
+Author: Super
+Name: IJMAutoClickiOS15
+
+Package: jimai.Automatic.clickiOS15
+Version: 240902.170611
+Architecture: iphoneos-arm64
+Maintainer: Super
+Depends: openssh,mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/ijiamiAuto-240902.170611.deb
+Size: 4182700
+MD5sum: 53f910aa56c5121fa73226021c2dc3da
+SHA1: ba610407da59a69efe390ac1bfd2fb129f7b2ebb
+SHA256: 2a4a352bb90a2de34893e848afd5ce9559087a104b7c2f01c4cc6bb6e7534f86
 Section: Super
 Description: iOS手机环境插件集成版(iOS15版本)
 Author: Super
