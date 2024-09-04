@@ -165,3 +165,18 @@ Description: iOS手机环境插件集成版(iOS15版本)
 Author: Super
 Name: IJMAutoClickiOS15
 
+Package: jimai.Automatic.clickiOS15
+Version: 240903.154810
+Architecture: iphoneos-arm64
+Maintainer: Super
+Depends: openssh,mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/ijiamiAuto-240903.154810-rootless.deb
+Size: 4260684
+MD5sum: 95e20d2f7126115bb65d66efdc766650
+SHA1: dfa83fa07cdfc44646e010a1e8c826b10f06ea3f
+SHA256: dbcf35288da3d14a65f3454b100624e196b1dade8e5287382d2c9c7d13c337b1
+Section: Super
+Description: iOS手机环境插件集成版(iOS15版本)
+Author: Super
+Name: IJMAutoClickiOS15
+
