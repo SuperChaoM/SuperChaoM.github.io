@@ -4,15 +4,31 @@ Architecture: iphoneos-arm64
 Maintainer: songxuhua
 Depends: firmware (>= 5.0)
 Filename: ./debs/IDBDeviceCheckTool.ijm.com_1.4_iphoneos-arm64_rootless.deb
-Size: 35238
-MD5sum: 3488addda1058567b73fce850cbf8d8c
-SHA1: 1ff44ecd1b955b736df60d72fd1d8d4ac17fcf6e
-SHA256: c80fdf2eef27af15d665775e6faa7be6c83dbe490bd85ff11a4de73b94180c5e
+Size: 35188
+MD5sum: 3805cec290cf65cfda30593fbd9be0af
+SHA1: 3d9bb5022eef033107f7ee1d852e2cd8434a1627
+SHA256: 2f9883da744879e7c38ebd049d6161fa7f43497445a270ed39e973c209b0c7fe
 Section: System
 Priority: optional
 Description: 生产日期20240528(适配dopamine越狱)
 Author: ijm
 Name: IDBDeviceCheckTool
+
+Package: IDBScannerTool.ijiami.com
+Version: 2.5.0
+Architecture: iphoneos-arm64
+Maintainer: XX
+Depends: firmware (>= 5.0), ldid
+Filename: ./debs/IDBScannerTool.ijiami.com_2.5.0_iphoneos-arm64_rootless.deb
+Size: 316074
+MD5sum: a4f85ee22a0f43a79900b3af39dca13f
+SHA1: 93fa4da8d6b040ec4f8b88edbdf763ffb0dc2d8a
+SHA256: 1a1e4833cd37a0281fbeb92a90a7f833224c0c0c3531a414561decca4d9034d1
+Section: System
+Priority: optional
+Description: 生产日期20240826(适配dompaine版本)
+Author: XX
+Name: IDBScannerTool
 
 Package: NewClientOSWebSocket.com.songxuhua
 Version: 2.9.6
@@ -27,6 +43,23 @@ SHA256: f6bce3c1e760f88e018336b09b6b5d3344d9dbea054f156db5fec4dbfbea637c
 Section: System
 Priority: optional
 Description: 扫码行为日志加入stage
+Author: songxuhua
+Icon: 1
+Name: ijmClientOSWebSocket
+
+Package: NewClientOSWebSocket.com.songxuhua
+Version: 2.9.8
+Architecture: iphoneos-arm64
+Maintainer: MyNameisSongxuhua
+Depends: firmware (>= 5.0),lsof
+Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.8_iphoneos-arm64_rootless.deb
+Size: 239402
+MD5sum: 764a41331c4ed8c04cce9ae46b796acd
+SHA1: 3b7509d6a2d7d0afb1b10fd3c9ff6e25483f9a62
+SHA256: 1cc9a413d6310e593cc55e7b89019d243efe7dab9b3ec4c9e5491ead80e57e80
+Section: System
+Priority: optional
+Description: frpc配置修复(dompaine适配)
 Author: songxuhua
 Icon: 1
 Name: ijmClientOSWebSocket
@@ -71,6 +104,21 @@ Tag: purpose::daemon, role::enduser
 Author: saurik, Cannathea <csupport@cannathea.com>
 Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Name: Apple File Conduit "2" (iOS 11+, arm64)
+
+Package: com.ijm.demo.IDBDeamon
+Version: 1.4.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.ijm.demo.IDBDeamon_1.4.0_iphoneos-arm64_rootless.deb
+Size: 39776
+MD5sum: 62ac01ba5fb853d39860be4ef380560a
+SHA1: f78ed66a37cd0db4e653730fb4124f8e53553464
+SHA256: a494df85bbb14cc5dc9a153bc1efb8b8fb31d94cf444b7aeee873489ff944a01
+Section: System
+Priority: optional
+Description: 生产日期20240826(适配dompaine)
+Author: songxuhua
+Name: IDBDeamon
 
 Package: jimai.Automatic.clickiOS15
 Version: 240621.145840
