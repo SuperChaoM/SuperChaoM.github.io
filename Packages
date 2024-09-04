@@ -31,23 +31,6 @@ Author: XX
 Name: IDBScannerTool
 
 Package: NewClientOSWebSocket.com.songxuhua
-Version: 2.9.6
-Architecture: iphoneos-arm64
-Maintainer: MyNameisSongxuhua
-Depends: firmware (>= 5.0),lsof
-Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.6_iphoneos-arm64_rootless.deb
-Size: 233824
-MD5sum: 26b7c18129c474688677363304069428
-SHA1: 2ee9f9c2f1f4616ffad3b276650e32cb49b30931
-SHA256: f6bce3c1e760f88e018336b09b6b5d3344d9dbea054f156db5fec4dbfbea637c
-Section: System
-Priority: optional
-Description: 扫码行为日志加入stage
-Author: songxuhua
-Icon: 1
-Name: ijmClientOSWebSocket
-
-Package: NewClientOSWebSocket.com.songxuhua
 Version: 2.9.8
 Architecture: iphoneos-arm64
 Maintainer: MyNameisSongxuhua
@@ -119,51 +102,6 @@ Priority: optional
 Description: 生产日期20240826(适配dompaine)
 Author: songxuhua
 Name: IDBDeamon
-
-Package: jimai.Automatic.clickiOS15
-Version: 240621.145840
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto.deb
-Size: 4192780
-MD5sum: 76d6118da14ab2f2423a8d17a49b24f4
-SHA1: 2ebf91b42cd03099bbfea6d851a49b34cdfa3245
-SHA256: e1e1f66963cbbacabf5b8fed1ca6db51c12c4ce72e576a31dd1769939d6eb1c9
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
-
-Package: jimai.Automatic.clickiOS15
-Version: 240621.150807
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-240621.150807.deb
-Size: 4192784
-MD5sum: 450365f89967c11911580ef301b820ed
-SHA1: a06fcf15ccb3e9a8db67b51e22310ec56fbaa5c6
-SHA256: 7dfa09d09668169f2441fbed33b5cc29daea02b22d8e50124ea5f05337872148
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
-
-Package: jimai.Automatic.clickiOS15
-Version: 240902.170611
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-240902.170611.deb
-Size: 4182700
-MD5sum: 53f910aa56c5121fa73226021c2dc3da
-SHA1: ba610407da59a69efe390ac1bfd2fb129f7b2ebb
-SHA256: 2a4a352bb90a2de34893e848afd5ce9559087a104b7c2f01c4cc6bb6e7534f86
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
 
 Package: jimai.Automatic.clickiOS15
 Version: 240903.154810
