@@ -4,10 +4,10 @@ Architecture: iphoneos-arm64
 Maintainer: songxuhua
 Depends: firmware (>= 5.0)
 Filename: ./debs/IDBDeviceCheckTool.ijm.com_1.4_iphoneos-arm64_rootless.deb
-Size: 35188
-MD5sum: 3805cec290cf65cfda30593fbd9be0af
-SHA1: 3d9bb5022eef033107f7ee1d852e2cd8434a1627
-SHA256: 2f9883da744879e7c38ebd049d6161fa7f43497445a270ed39e973c209b0c7fe
+Size: 35174
+MD5sum: 0c4ca521e6489b9fffb35ffbdd27a3d9
+SHA1: 1f709070b9f4641c850de01298acdcf539875438
+SHA256: fec50b66d5c8e7ace24e469dbbfb75d011127608f6e1e93ffe8690e183caa400
 Section: System
 Priority: optional
 Description: 生产日期20240528(适配dopamine越狱)
@@ -21,9 +21,9 @@ Maintainer: XX
 Depends: firmware (>= 5.0), ldid
 Filename: ./debs/IDBScannerTool.ijiami.com_2.5.0_iphoneos-arm64_rootless.deb
 Size: 316074
-MD5sum: a4f85ee22a0f43a79900b3af39dca13f
-SHA1: 93fa4da8d6b040ec4f8b88edbdf763ffb0dc2d8a
-SHA256: 1a1e4833cd37a0281fbeb92a90a7f833224c0c0c3531a414561decca4d9034d1
+MD5sum: 9c2dff028f6802958339f307c4c8474c
+SHA1: 9e4213f64498dfafb618c1294fa9ec911b2c2734
+SHA256: 1ae9691726bab811ce3598be654e2776c9a8eeb264411e7c3306ba12d88f92da
 Section: System
 Priority: optional
 Description: 生产日期20240826(适配dompaine版本)
@@ -36,10 +36,10 @@ Architecture: iphoneos-arm64
 Maintainer: MyNameisSongxuhua
 Depends: firmware (>= 5.0),lsof
 Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.8_iphoneos-arm64_rootless.deb
-Size: 239402
-MD5sum: 764a41331c4ed8c04cce9ae46b796acd
-SHA1: 3b7509d6a2d7d0afb1b10fd3c9ff6e25483f9a62
-SHA256: 1cc9a413d6310e593cc55e7b89019d243efe7dab9b3ec4c9e5491ead80e57e80
+Size: 239498
+MD5sum: b08a5cc538069c08f7d02a3410a5dea6
+SHA1: 89da28aee4599e0a9f7966f1ccf817d31f2ee706
+SHA256: b082daaca374880263a8dcb5de60f4d7bf5dc767e3032a9e98e170e5997ed388
 Section: System
 Priority: optional
 Description: frpc配置修复(dompaine适配)
@@ -93,10 +93,10 @@ Version: 1.4.0
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0)
 Filename: ./debs/com.ijm.demo.IDBDeamon_1.4.0_iphoneos-arm64_rootless.deb
-Size: 39776
-MD5sum: 62ac01ba5fb853d39860be4ef380560a
-SHA1: f78ed66a37cd0db4e653730fb4124f8e53553464
-SHA256: a494df85bbb14cc5dc9a153bc1efb8b8fb31d94cf444b7aeee873489ff944a01
+Size: 39778
+MD5sum: 6659ed38233cc2e0e4d94ee2e8609192
+SHA1: 4d259e6446005af1be2b3c59aaf463bc804b3874
+SHA256: 0db72595b248b8c046b53513a1f8bea01d233ebcb21d6cc08c0c2a3472b9fdde
 Section: System
 Priority: optional
 Description: 生产日期20240826(适配dompaine)
