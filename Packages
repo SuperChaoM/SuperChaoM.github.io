@@ -36,10 +36,10 @@ Architecture: iphoneos-arm64
 Maintainer: MyNameisSongxuhua
 Depends: firmware (>= 5.0),lsof
 Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.8_iphoneos-arm64_rootless.deb
-Size: 239498
-MD5sum: 93b76873c7c2e24490e557f736332b1c
-SHA1: a16ff8f5e3dcebac8e899f1c5e892db6d95d0df0
-SHA256: 60a5dcd630ea110761e5c2c6a5c39ac51d09e01b04df6bc8eea03777ece0f8b6
+Size: 474184
+MD5sum: 294a124e77cad6bdececc0af7ac7b760
+SHA1: 928f0788d55557e28d2cfc2665fd9fe478ba602d
+SHA256: 52dd48a438a6fbde72b3edf6bd010e1e501170603058e80175ba81762490abba
 Section: System
 Priority: optional
 Description: frpc配置修复(dompaine适配)
@@ -160,6 +160,21 @@ Size: 5989028
 MD5sum: 5a59ad7f9a57d5f7eda9b16cc971f45f
 SHA1: a98b6e5284bbe82a6b30f0d1ac902156425d26e6
 SHA256: 77fa68773e125ec04535acce82ed54aa2412480a626d0c482811709e61d7ced7
+Section: Super
+Description: iOS手机环境插件集成版(iOS15版本)
+Author: Super
+Name: IJMAutoClickiOS15
+
+Package: jimai.Automatic.clickiOS15
+Version: 241210.155959
+Architecture: iphoneos-arm64
+Maintainer: Super
+Depends: openssh,mobilesubstrate,firmware (>= 6.0)
+Filename: ./debs/ijiamiAuto-241210.155959-rootless.deb
+Size: 7201836
+MD5sum: 468226b372b96e103e1be61ac1eaa18a
+SHA1: faf345293333688f6dacb2a188c24ecc2b81cb13
+SHA256: 38c60d57623ce2a6bdb9389e96ef0c446e8e3afe3d6caeea57bed35b5645619c
 Section: Super
 Description: iOS手机环境插件集成版(iOS15版本)
 Author: Super
