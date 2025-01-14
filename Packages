@@ -4,10 +4,10 @@ Architecture: iphoneos-arm64
 Maintainer: songxuhua
 Depends: firmware (>= 5.0)
 Filename: ./debs/IDBDeviceCheckTool.ijm.com_1.4_iphoneos-arm64_rootless.deb
-Size: 35176
-MD5sum: 5a9ef1c6bc7b40da27c9abd5dd56ab61
-SHA1: d4720144e37a75a6298dbd69b4650e86853f1a79
-SHA256: c23e5c8b01f2bd2dbf320adc9f3a23992bdb8848cf1c9df118fb848849d1802e
+Size: 35156
+MD5sum: 171e9e5b18ec07d70b11d2b3b231f7a0
+SHA1: 9e43c70e0cb3a8aa8b69b90e6e2db5aced2b9db9
+SHA256: 2e5180f4b2ff2cd03037ce00ce885f376136a1655d893772a433d6e357d56211
 Section: System
 Priority: optional
 Description: 生产日期20240528(适配dopamine越狱)
@@ -20,10 +20,10 @@ Architecture: iphoneos-arm64
 Maintainer: XX
 Depends: firmware (>= 5.0), ldid
 Filename: ./debs/IDBScannerTool.ijiami.com_2.5.0_iphoneos-arm64_rootless.deb
-Size: 317596
-MD5sum: da5ba622782b68735489655b782dba45
-SHA1: 3841a863e882c4aa5b98fdbd57ebe0f4337ab75a
-SHA256: aabb2d7d60b588ab997290e4550de7bacc00968e4ea04ef2332084be2cc5662d
+Size: 282588
+MD5sum: 565366143a4e3aa202bb155a596062fd
+SHA1: 594ac694fee1c8f6f806fcc3c95bae0e22e530c0
+SHA256: ceaf0fdd16a88e8f0a31a0c5f8045f2087bbfdb14e52b9debc26afa143250b18
 Section: System
 Priority: optional
 Description: 生产日期20240826(适配dompaine版本)
@@ -36,10 +36,10 @@ Architecture: iphoneos-arm64
 Maintainer: MyNameisSongxuhua
 Depends: firmware (>= 5.0),lsof
 Filename: ./debs/NewClientOSWebSocket.com.songxuhua_2.9.8_iphoneos-arm64_rootless.deb
-Size: 474184
-MD5sum: 294a124e77cad6bdececc0af7ac7b760
-SHA1: 928f0788d55557e28d2cfc2665fd9fe478ba602d
-SHA256: 52dd48a438a6fbde72b3edf6bd010e1e501170603058e80175ba81762490abba
+Size: 475952
+MD5sum: 1efb99b49303b08c6d4aa29d3012a626
+SHA1: 72bed07d2ababd967571abb529c87f0877d37c11
+SHA256: 6e3c4979bf88880baaac5db08507d235fc18fe559b308acba724b27d9bc22827
 Section: System
 Priority: optional
 Description: frpc配置修复(dompaine适配)
@@ -105,76 +105,31 @@ Description: 生产日期20240826(适配dompaine)
 Author: songxuhua
 Name: IDBDeamon
 
-Package: jimai.Automatic.clickiOS15
-Version: 240903.154810
+Package: com.ijm.demo.IDBDeamon
+Version: 1.4.1
 Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-240903.154810-rootless.deb
-Size: 4260684
-MD5sum: 95e20d2f7126115bb65d66efdc766650
-SHA1: dfa83fa07cdfc44646e010a1e8c826b10f06ea3f
-SHA256: dbcf35288da3d14a65f3454b100624e196b1dade8e5287382d2c9c7d13c337b1
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.ijm.demo.IDBDeamon_1.4.1_iphoneos-arm64_rootless.deb
+Size: 41730
+MD5sum: 6b2bffd916ec0a4477ecdd3c60d8772f
+SHA1: 60a40afee0d7aefa7375de8e588cc1734927f42b
+SHA256: c57506dc71d4e7cf5e65b8a95ac95563a37c9b1d23fab814facbad439a630009
+Section: System
+Priority: optional
+Description: 生产日期20241227(适配dompaine-hidden)
+Author: songxuhua
+Name: IDBDeamon
 
 Package: jimai.Automatic.clickiOS15
-Version: 241028.174949
+Version: 250113.163046
 Architecture: iphoneos-arm64
 Maintainer: Super
 Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-241028.174949-rootless.deb
-Size: 4265460
-MD5sum: fe39c2d45ca3e169d9dae8ee1b078ab0
-SHA1: 9990d79460dfc41a047b264d536ab1e304164338
-SHA256: 85107ba8de41d5dbf72128e38b38db84006ac81a173899081b46124f57c7aafc
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
-
-Package: jimai.Automatic.clickiOS15
-Version: 241029.162035
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-241029.162035-rootless.deb
-Size: 5991984
-MD5sum: 1cd95b589c8cde38ff2fcdff5b683ec1
-SHA1: 7ef69d397a5718c4681c83eba229e6914f99b180
-SHA256: d962f6d66a60d54b8d2e3767b4d5d67a75515d1695e9b8c9b4d916f8a0158a2a
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
-
-Package: jimai.Automatic.clickiOS15
-Version: 241111.103923
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-241111.103923-rootless.deb
-Size: 5989028
-MD5sum: 5a59ad7f9a57d5f7eda9b16cc971f45f
-SHA1: a98b6e5284bbe82a6b30f0d1ac902156425d26e6
-SHA256: 77fa68773e125ec04535acce82ed54aa2412480a626d0c482811709e61d7ced7
-Section: Super
-Description: iOS手机环境插件集成版(iOS15版本)
-Author: Super
-Name: IJMAutoClickiOS15
-
-Package: jimai.Automatic.clickiOS15
-Version: 241210.155959
-Architecture: iphoneos-arm64
-Maintainer: Super
-Depends: openssh,mobilesubstrate,firmware (>= 6.0)
-Filename: ./debs/ijiamiAuto-241210.155959-rootless.deb
-Size: 7201836
-MD5sum: 468226b372b96e103e1be61ac1eaa18a
-SHA1: faf345293333688f6dacb2a188c24ecc2b81cb13
-SHA256: 38c60d57623ce2a6bdb9389e96ef0c446e8e3afe3d6caeea57bed35b5645619c
+Filename: ./debs/ijiamiAuto-250113.163046-rootless.deb
+Size: 7205756
+MD5sum: 7b0df6adfa6aa35d11782e7365d7c25e
+SHA1: 548a0f5ae516a251e96e7ebee98f040916ce9d3f
+SHA256: 1d9aba21429af7d2da43277b2132a355d6226b529c657c07a6420e75e187f352
 Section: Super
 Description: iOS手机环境插件集成版(iOS15版本)
 Author: Super
